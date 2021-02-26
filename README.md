@@ -673,6 +673,8 @@ Markdown：是一种轻量级标记语言，它允许人们使用易读易写的
 **Markdown**：是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
 ```
 
+>  **Markdown**：是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
+
 标题上下不要使用分割线。
 
 ```markdown
@@ -715,6 +717,14 @@ Markdown：是一种轻量级标记语言，它允许人们使用易读易写的
 > - 第三项
 ```
 
+> 区块中使用列表
+> 1. 第一项
+> 2. 第二项
+> 3. 第三项
+> - 第一项
+> - 第二项
+> - 第三项
+
 ## 6.5 代码
 
 段落中的片段代码适量使用，关键字不要重复使用片段代码。
@@ -724,6 +734,8 @@ Markdown：是一种轻量级标记语言，它允许人们使用易读易写的
 ```markdown
 这是一个 `片段代码` 示 `例`。
 ```
+
+> 这是一个 `片段代码` 示 `例`。
 
 代码块严格标注类型。
 
@@ -753,15 +765,49 @@ System.out.println("Hello World!");
 ​```
 ```
 
+>  <!-- 普通文本 -->
+
+```
+普通文字不用标注类型
+```
+
+>  <!-- markdown -->
+
+```markdown
+### Markdown 文本标注为 markdown 类型。
+```
+
+>  <!-- 命令行 -->
+
+```bash
+$ javac Test.java
+# 编译 Test.java 文件。
+# 命令行统一为 bash 类型，且每条命令前加上 '$'，其中 '#' 为 bash 注释。
+```
+
+>  <!-- 代码 -->
+
+```java
+System.out.println("Hello World!");
+// 打印 Hello World!
+/* 根据不同的编程语言选择不同的类型。 */
+```
+
 ## 6.6 链接
 
 非特殊情况不要直接暴露链接地址。
+
+链接左右为文字时留一个空格，为标点符号时不用。
 
 ```markdown
 建议：[bilibili](https://www.bilibili.com/)
 
 不建议：<https://www.bilibili.com/>
 ```
+
+> 建议：[bilibili](https://www.bilibili.com/)
+>
+> 不建议：<https://www.bilibili.com/>
 
 ## 6.7 图片
 
@@ -796,7 +842,7 @@ System.out.println("Hello World!");
 使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
 ```
 
-使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
+>  使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
 
 ```markdown
 <!-- 转义 -->
@@ -804,8 +850,8 @@ System.out.println("Hello World!");
 \*\* 正常显示星号 \*\*
 ```
 
-**文本加粗** 
-\*\* 正常显示星号 \*\*
+> **文本加粗** 
+> \*\* 正常显示星号 \*\*
 
 
 # 七、文档体系
