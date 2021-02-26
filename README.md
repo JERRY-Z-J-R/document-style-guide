@@ -943,7 +943,7 @@ Linux 系统是大小写敏感的，而 Windows 系统和 Mac 系统正好相反
 
 小写文件名通常比大写文件名更易读，比如 `accessibility.txt` 就比 `ACCESSIBILITY.TXT` 易读。
 
-有人习惯使用 [驼峰命名法](http://www.ruanyifeng.com/blog/2007/06/camelcase.html)，单词的第一个字母大写，其他字母小写。这种方法的问题是，如果遇到全部是大写的缩略词，就会不适用。
+有人习惯使用 [驼峰命名法](https://baike.baidu.com/item/%E9%AA%86%E9%A9%BC%E5%91%BD%E5%90%8D%E6%B3%95?fromtitle=%E9%A9%BC%E5%B3%B0%E5%91%BD%E5%90%8D%E6%B3%95&fromid=7560610)，单词的第一个字母大写，其他字母小写。这种方法的问题是，如果遇到全部是大写的缩略词，就会不适用。
 
 比如，一个姓李的纽约特警，无论写成 `NYPoliceSWATLee` 还是 `NyPoliceSwatlee`，都怪怪的，还是写成 `ny-police-swat-lee` 比较容易接受。
 
