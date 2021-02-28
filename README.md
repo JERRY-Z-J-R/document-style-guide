@@ -853,6 +853,13 @@ System.out.println("Hello World!");
 > **文本加粗** 
 > \*\* 正常显示星号 \*\*
 
+```markdown
+<!-- 文本居中 -->
+<center>居中<center>
+```
+
+> <center>居中<center>
+
 
 # 七、文档体系
 
