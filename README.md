@@ -2,8 +2,6 @@
 
 # JERRY-Document-Style-Guide
 
-**《JERRY 中文技术文档的写作规范》**
-
 > 主要内容基于阮一峰[《中文技术文档的写作规范》](https://github.com/ruanyf/document-style-guide)，部分内容依据平时习惯进行了个人补充。
 >
 > 转载请注明出处，请勿用于商业用途！
